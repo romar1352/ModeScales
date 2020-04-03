@@ -1,0 +1,87 @@
+<HTML>
+<!-- here goes... -->
+  <head>
+    <meta charset="utf-8">
+    <title>Musical Scale Generator</title>
+    <link rel="stylesheet" href="../scaleGen.css"></link>
+  </head>
+  <body>
+    <div class="bigBox">
+      <!--
+            This is where we let the user choose options for what to show
+      -->
+      <div class="paramBox" id="Box1">
+        <form>
+          <br>
+          <label class="userParam" id="keys_label" for="keys">Key:</label>
+          <select id="keyChoice" name="key_choice">
+            <option value="C" selected>C</option>
+            <option value="C# Db">C# Db</option>
+            <option value="D">D</option>
+            <option value="D# Eb">D# Eb</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+            <option value="F# Gb">F# Gb</option>
+            <option value="G">G</option>
+            <option value="G# Ab">G# Ab</option>
+            <option value="A">A</option>
+            <option value="A# Bb">A# Bb</option>
+            <option value="B">B</option>
+          </select>
+<!--        <br><br>
+-->
+          <label class="userParam" id="degree_label" for="degrees">&nbsp;&nbsp;Mode scale degree:</label>
+          <select id="degreeChoice" name="degree_choice">
+<!--            <option value="1">1</option>
+-->
+            <option value="2" selected>2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+<!--            <option value="Dorian">1</option>
+            <option value="Phrygian">3</option>
+            <option value="4">Lydian</option>
+            <option value="5">Mixolydian</option>
+            <option value="6">Aeolian</option>
+            <option value="7">Locrian</option>
+-->
+          </select>
+          <button class="genScales" type="button">Let's Go!</button>
+          <button class="clearScreen" type="button">CLEAR</button>
+        </form>
+      </div>
+<!--
+        Here are the buttons to get things done
+      <div class="buttonBox">
+        <button class="genScales" type="button">Let's Go!</button>
+        <button class="clearScreen" type="button">CLEAR</button>
+      </div>
+    -->
+<!--
+        This is where we display what has been calculated:
+        Scale, chord names and chord notes
+-->
+      <div class="outputBox" id="outputData">
+<!--
+        <p id="printMajorScale">The major scale</p>
+        <p id="printScaleChords3">Three note major scale chords</p>
+        <p id="printScaleChords4">Four note major scale chords</p>
+        <br>
+        <p id="printModeScale">The modal scale</p>
+        <p id="printModeChords3">Three note mode scale chords</p>
+        <p id="printModeChords4">Four note mode scale chords</p>
+-->
+        <table class="scaleTable">
+        </table>
+      </div>
+      <div class="footerGuff">
+      <p>brought to you by <a href="mailto:robin.martini@alumni.cern"> Robin Martini</a></p>
+      <p>last updated on 3rd April 2020</p>
+    </div>
+  </body>
+
+<script src="../scaleGen.js"></script>
+
+</HTML>

@@ -1,0 +1,150 @@
+/*
+*/
+
+body {
+  font: 1em/100% Helvetica, Arial, sans-serif;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: #999;
+}
+
+.bigBox {
+  display: inline-block;
+  float: center;
+  width: 98%;
+}
+
+.paramBox {
+  float: center;
+  width: 990px;
+  height: 90px;
+  margin: .2em;
+  background-color: #D1CED9;
+  border: 1px solid #555;
+  border-radius: 4px;
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.outputBox {
+  float: center;
+  background-color: #D9CDD9;
+  width: 990px;
+  height: 280px;
+  margin: .2em;
+  border: 1px solid #555;
+  border-radius: 4px;
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footerGuff {
+  width: 990px;
+  text-align: right;
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 11px;
+  font-style: italic;
+  color: #DDD;
+}
+
+td {
+    border: 1px solid #555;
+}
+
+.scaleCell {
+  width: 99px;
+}
+.scaleTable {
+  border: 4px solid #333;
+  width: 990px;
+}
+
+.majorScaleHead {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 18px;
+  background-color: #38D;
+  text-align: center;
+}
+
+.scaleTabText1 {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.scaleTabText2 {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.chordTabHead {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 13px;
+  text-align: right;
+}
+
+.chordName {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.chordNotes {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+#keyChoice {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 14px;
+}
+#degreeChoice {
+  font-family: "Avant Garde", "Geneva", "Tahoma", sans-serif;
+  font-size: 14px;
+}
+
+.key1List {
+  display: inline;
+}
+
+.key2List {
+  display: none;
+}
+
+.genScales {
+  display: inline-block;
+  color: #CCC;
+  background-color: #700;
+  margin-left: 2em;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.75em;
+}
+
+.clearScreen {
+  display: inline-block;
+  color: #CCC;
+  background-color: #700;
+  margin-left: 2em;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.75em;
+}
+
+.clearScreen:hover {
+  color: #CCC;
+  background-color: #900;
+  cursor: pointer;
+  border-color: #A00 #C30 #C30 #A00;
+}
+
+.genScales:hover {
+  color: #CCC;
+  background-color: #900;
+  cursor: pointer;
+  border-color: #A00 #C30 #C30 #A00;
+}
